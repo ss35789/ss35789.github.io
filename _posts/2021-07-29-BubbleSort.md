@@ -1,5 +1,5 @@
 ---
-layout: sigle
+layout: single
 title: "버블 정렬"
 ---
 
