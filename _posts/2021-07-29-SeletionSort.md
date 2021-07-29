@@ -4,7 +4,7 @@ title: "선택 정렬"
 ---
 
 #First
-<code>
+```c
 #include <stdio.h>
 int main(void){
 
@@ -32,4 +32,4 @@ int main(void){
   }
   return 0;
 }
-                        </code>
+```
