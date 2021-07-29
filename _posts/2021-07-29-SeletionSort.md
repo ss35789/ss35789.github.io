@@ -4,8 +4,8 @@ title: "선택 정렬"
 ---
 
 #First
-
-
+<code>
+#include <stdio.h>
 int main(void){
 
   int i,j,index,tmp,min;
@@ -32,4 +32,4 @@ int main(void){
   }
   return 0;
 }
-
+                        </code>
