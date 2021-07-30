@@ -19,7 +19,7 @@ int array[10]={4,5,3,6,2,0,1,7,9,8};
 
 
 void quickSort(int *data, int start,int end){
-    if(start>=end)return;
+    if(start>=end)return;//원소가 하나인 경우
     
     int i=start+1;
     int j=end;
