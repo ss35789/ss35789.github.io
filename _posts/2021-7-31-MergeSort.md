@@ -25,43 +25,50 @@ void merge(int *a,int m,int middle,int n){
   
   while(i<=middle&&j<=n){
     if(a[i]<=a[j]){
-      a[k]=a[i];
+      array[k]=a[i];
       i++;
     }
     else{
-      a[k]=a[j];
+      array[k]=a[j];
       j++;
     
     }
-  
+    k++;
   }
   
   if(i>middle){
     while(j<=n){
-      a[k]=a[j];
+      array[k]=a[j];
       j++;
+      k++;
     }
 
   }
   else{
     while(i<=middle){
-      a[k]=a[i];
+      array[k]=a[i];
       i++;
+      k++;
     }
   
   }
-
-
+  //남은 데이터들도 삽입
+  
+    for(int i=m;i<=n;i++){
+        a[i]=array[i];
+    }//정렬한 배열을 원래 배열에 삽입
+    
 }//작게 나눈것들을 합치는 함수
 
 void mergeSort(int *a,int s,int e){
-  int middle=(s+e)/2;
-  mergeSort(a,s,middle);
-  mergeSort(a,middle+1,e);
-  merge(a,s,middle,e);
-  for(int i=0;i<e;i++){
-    a[i]=array[i];
-  }
+    if(s<e){
+        int middle=(s+e)/2;
+        mergeSort(a,s,middle);
+        mergeSort(a,middle+1,e);
+        merge(a,s,middle,e);
+    }
+  
+  
 }
 
 
@@ -69,7 +76,7 @@ void mergeSort(int *a,int s,int e){
 
 int main(void){
 
-  int arr[number]={2,4,5,6,7,1,8,3};
+  int arr[8]={2,4,5,6,7,1,8,3};
   mergeSort(arr,0,number-1);
   
   for(int i=0;i<number;i++){
