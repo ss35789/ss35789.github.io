@@ -1,6 +1,6 @@
 ---
-layout:single
-title:"힙 정렬"
+layout: single
+title: "힙 정렬"
 ---
 
 #7
