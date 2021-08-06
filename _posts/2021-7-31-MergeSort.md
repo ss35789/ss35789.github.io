@@ -17,7 +17,7 @@ title: "병합 정렬"
 #include <stdio.h>
 int number=8;
 int array[8];
-void merge(int *a,int m,int middle,int n){
+void merge(int *a,int m,int middle,int n){  //m은 시작인덱스, middle은 중간 인덱스, n은 끝인데스
 
   int k=m;
   int i=m;
@@ -34,7 +34,7 @@ void merge(int *a,int m,int middle,int n){
     
     }
     k++;
-  }
+  } // i와 j를 시작으로 하는 a[]를 임의로 나눈 두 배열의 원소중 작은 것부터 array에 삽입
   
   if(i>middle){
     while(j<=n){
@@ -52,11 +52,11 @@ void merge(int *a,int m,int middle,int n){
     }
   
   }
-  //남은 데이터들도 삽입
+  //임의의 두 배열중 어느 한 쪽의 원소가 전부 삽입 되었다면 남은 임의의 배열의 원소들도 마저 삽입
   
     for(int i=m;i<=n;i++){
         a[i]=array[i];
-    }//정렬한 배열을 원래 배열에 삽입
+    }//정렬한 배열(array[])을 원래 배열(a[])에 삽입
     
 }//작게 나눈것들을 합치는 함수
 
@@ -69,7 +69,7 @@ void mergeSort(int *a,int s,int e){
     }
   
   
-}
+}// 재귀적으로 일단 임의로 두 배열로 나눈후 정렬하여 합침
 
 
 
