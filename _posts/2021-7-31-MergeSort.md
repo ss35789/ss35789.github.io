@@ -17,7 +17,7 @@ title: "병합 정렬"
 #include <stdio.h>
 int number=8;
 int array[8];
-void merge(int *a,int m,int middle,int n){  //m은 시작인덱스, middle은 중간 인덱스, n은 끝인데스
+void merge(int *a,int m,int middle,int n){  //m은 시작인덱스, middle은 중간 인덱스, n은 끝인스
 
   int k=m;
   int i=m;
