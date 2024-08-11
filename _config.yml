@@ -16,14 +16,17 @@ timezone:
 
 title: LeeTec # the main title
 
-tagline: A text-focused Jekyll theme # it will display as the sub-title
+tagline: Organize and Record Issues and Technologies # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+ "개발 프로젝트 관리: 기술과 이슈를 체계적으로 정리하는 방법"
+  "효율적인 소프트웨어 개발: 기술 스택과 문제 해결 기록법"
+  "개발자 필수 스킬: 기술 및 버그 추적과 정리 방법"
+  "효율적인 이슈 관리: 개발 프로젝트의 기술과 문제 기록하기"
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
-url: ""
+url: "ss35789.github.io"
 
 github:
   username: Sangmin Lee # change to your github username
@@ -96,7 +99,7 @@ theme_mode: dark # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: "/assets/img/testImg.jpg"
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
