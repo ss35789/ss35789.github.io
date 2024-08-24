@@ -19,6 +19,16 @@ title: LeeTec # the main title
 tagline: Organize and Record Issues and Technologies # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
+  "Spring",
+  "개발자 취업",
+  "기술 블로그",
+  "프론트엔드",
+  "백엔드",
+  "CS",
+  "Java",
+  "React",
+  "Javascript",
+  "MySql",
   "개발 프로젝트 관리: 기술과 이슈를 체계적으로 정리하는 방법"
   "효율적인 소프트웨어 개발: 기술 스택과 문제 해결 기록법"
   "개발자 필수 스킬: 기술 및 버그 추적과 정리 방법"
